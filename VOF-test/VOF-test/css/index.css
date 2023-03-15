@@ -1,0 +1,1927 @@
+@charset "utf-8"; #MiWrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+    background: url(../image/mi_ct_bg.gif) repeat-x 0 0;
+    text-align: center;
+}
+
+#MiConts {
+    float: right;
+    width: 962px;
+    margin: 0;
+    padding: 0;
+}
+
+.MiVisualArea {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.MiVisual {
+    float: left;
+    width: 421px;
+}
+
+.MiVOFArea {
+    float: right;
+    width: 541px;
+}
+
+.MiHotTxt {
+    position: relative;
+    padding-left: 55px;
+    padding-top: 1px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 15px;
+    font-family: dotum, sans-serif;
+    font-weight: bold;
+    background: #bcbbb6;
+    letter-spacing: -1px;
+}
+
+.MiHotTxt p.icn {
+    position: absolute;
+    top: -6px;
+    left: 5px;
+}
+
+.MiVOFLolling {
+    position: relative;
+    width: 540px;
+    height: 439px;
+    background: #676767;
+}
+
+.MiVOFTxt {
+    position: absolute;
+    top: 145px;
+    left: 195px;
+    z-index: 9999
+}
+
+.MiVOFBar1 {
+    position: absolute;
+    top: 0;
+    left: 270px;
+    width: 1px;
+    height: 439px;
+    background: #676767;
+    font-size: 0;
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 999
+}
+
+.MiVOFBar2 {
+    position: absolute;
+    top: 0;
+    left: 542px;
+    width: 1px;
+    height: 439px;
+    background: #676767;
+    font-size: 0;
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 999
+}
+
+.MiVOFBar3 {
+    position: absolute;
+    top: 0;
+    left: 542px;
+    width: 1px;
+    height: 439px;
+    background: #e4e4e4;
+    font-size: 0;
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 999
+}
+
+.MiVOFLeft {
+    position: absolute;
+    width: 270px;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    background: #676767;
+    font-size: 0;
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.MiVOF01 {
+    position: relative;
+    width: 270px;
+    height: 220px;
+    font-size: 0;
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.MiVOF01 ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 11
+}
+
+.MiVOF01 .rollingbtn01 {
+    width: 271px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #000;
+    z-index: 111;
+    font-size: 0;
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+    -ms-filter: "progid:DXImage Transform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+}
+
+.MiVOF02 {
+    position: relative;
+    width: 270px;
+    height: 219px;
+    font-size: 0;
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.MiVOF02 ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 11
+}
+
+.MiVOF02 .rollingbtn01 {
+    width: 270px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #000;
+    z-index: 111;
+    font-size: 0;
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+    -ms-filter: "progid:DXImage Transform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+}
+
+.MiVOFRight {
+    position: absolute;
+    width: 270px;
+    top: 0;
+    right: 0;
+    z-index: 9;
+    background: #676767;
+    font-size: 0;
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.MiVOF03 {
+    position: relative;
+    width: 270px;
+    height: 220px;
+    font-size: 0;
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.MiVOF03 ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 11
+}
+
+.MiVOF03 .rollingbtn02 {
+    width: 269px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    z-index: 111;
+    text-align: right;
+    font-size: 0;
+    line-height: 0;
+    padding: 0;
+    margin: 0 1px 0 0;
+    -ms-filter: "progid:DXImage Transform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+}
+
+.MiVOF04 {
+    position: relative;
+    width: 270px;
+    height: 219px;
+    font-size: 0;
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.MiVOF04 ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 11
+}
+
+.MiVOF03 ul li, .MiVOF04 ul li {
+    text-align: right;
+}
+
+.MiVOF03 ul img, .MiVOF04 ul img {
+    width: 270px;
+}
+
+.MiVOF04 .rollingbtn02 {
+    width: 269px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    z-index: 111;
+    text-align: right;
+    font-size: 0;
+    line-height: 0;
+    padding: 0;
+    margin: 0 1px 0 0;
+    -ms-filter: "progid:DXImage Transform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+}
+
+.rollingbtn02 .pages {
+    float: right;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.frame {
+    width: 270px;
+    overflow: hidden;
+    position: relative;
+}
+
+.frame ul {
+    width: 270px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.frame ul li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.frame ul li img {
+    width: 270px;
+}
+
+.frame ul li.active {
+    color: #fff;
+}
+
+.pages {
+    list-style: none;
+    padding: 10px 10px 0 10px;
+}
+
+.pages li {
+    float: left;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 3px ;
+    background: url(../image/roll.png) no-repeat 0 0;
+    cursor: pointer;
+}
+
+.pages li:hover, .pages li.active {
+    background: url(../image/roll.png) no-repeat 0 -16px
+}
+
+.MiQuick1 {
+    width: 541px;
+    padding: 9px 0;
+    height: 101px;
+    background: #fff;
+    text-align: center
+}
+
+.MiQuick1 li {
+    float: left;
+    width: 50%;
+    height: 101px;
+    background: url(../image/mi_quick_bar.gif) no-repeat right 50%
+}
+
+.MiQuick1 li a, .MiQuick1 li a:link {
+    color: #4b4b4b;
+    font-size: 15px;
+    font-family: NanumBarunGothicBold, dotum, sans-serif;
+}
+
+.MiQuick1 li a:hover {
+    color: #ff5000;
+}
+
+.MiQuick1 li img {
+    padding: 10px 0;
+}
+
+.MiQuick1 li.last {
+    background: none !important;
+}
+
+.MiQuick3 {
+    width: 541px;
+    padding: 9px 0;
+    height: 101px;
+    background: #fff;
+    text-align: center
+}
+
+.MiQuick3 li {
+    float: left;
+    width: 25%;
+    height: 101px;
+    background: url(../image/mi_quick_bar.gif) no-repeat right 50%
+}
+
+.MiQuick3 li a, .MiQuick3 li a:link {
+    color: #4b4b4b;
+    font-size: 15px;
+    font-family: NanumBarunGothicBold, dotum, sans-serif;
+}
+
+.MiQuick3 li a:hover {
+    color: #ff5000;
+}
+
+.MiQuick3 li img {
+    padding: 10px 0;
+}
+
+.MiQuick3 li.last {
+    background: none !important;
+}
+
+.MiQuick2 {
+    width: 962px;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.MiQuickBox {
+    float: left;
+    width: 234px;
+    height: 125px;
+    background: #fff;
+    padding: 35px 0 0;
+    border: 1px solid #dadada;
+}
+
+.MgRt6px {
+    margin-right: 6px;
+}
+
+.MiQuickBox .img {
+    float: left;
+    width: 99px;
+    text-align: center;
+    padding-left: 7px
+}
+
+.MiQuickBox .txt {
+    float: left;
+    color: #a8a8a8;
+    font-size: 13px;
+    line-height: 15px;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+}
+
+.MiQuickBox .txt p {
+    padding: 13px 0 13px 0;
+    color: #4b4b4b;
+    font-size: 18px;
+    font-family: NanumBarunGothicBold, dotum, sans-serif;
+}
+
+.OfficeTourArea {
+    width: 962px;
+    height: 160px;
+    background: #323546;
+    margin-bottom: 33px;
+    background: url(../image/ot_bg.gif) repeat-x 0 0
+}
+
+.OfficeTourArea h3 {
+    height: 35px;
+    padding: 18px 0 0 43px;
+    color: #fff;
+    font-size: 18px;
+    font-family: NanumBarunGothicBold, dotum, sans-serif;
+}
+
+.OfficeTour {
+    position: relative;
+    width: 962px;
+    padding: 0;
+}
+
+#of_list {
+    margin-left: 45px;
+}
+
+#of_list .item {
+    width: 119px;
+    height: 88px;
+    padding: 0;
+    margin: 0 5px 0 0;
+}
+
+#of_list .item a img {
+    display: block;
+    width: 119px;
+    height: 88px;
+}
+
+#of_list .item a:hover img {
+    display: block;
+    width: 109px;
+    height: 78px;
+    border: 5px solid #ff2500
+}
+
+.owl-carousel .owl-wrapper:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.owl-carousel {
+    display: none;
+    position: relative;
+    width: 865px;
+    height: 90px;
+}
+
+.owl-carousel .owl-wrapper {
+    display: none;
+    position: relative;
+}
+
+.owl-carousel .owl-wrapper-outer {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.owl-carousel .owl-item {
+    float: left;
+}
+
+.owl-controls .owl-page,.owl-controls .owl-buttons div {
+    cursor: pointer;
+}
+
+.owl-controls {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.owl-carousel .owl-wrapper-outer.autoHeight {
+    -webkit-transition: height 500ms ease-in-out;
+    -moz-transition: height 500ms ease-in-out;
+    -ms-transition: height 500ms ease-in-out;
+    -o-transition: height 500ms ease-in-out;
+    transition: height 500ms ease-in-out;
+}
+
+.owl-carousel .owl-wrapper, .owl-carousel .owl-item {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+}
+
+.customNavigation .prev {
+    position: absolute;
+    top: 22px;
+    left: 10px;
+    width: 24px;
+    height: 40px;
+    cursor: pointer
+}
+
+.customNavigation .next {
+    position: absolute;
+    top: 22px;
+    right: 10px;
+    width: 24px;
+    height: 40px;
+    cursor: pointer
+}
+
+.OfficeService {
+    display: inline-block;
+    margin-bottom: 35px;
+}
+
+.OfficeService h3 {
+    height: 40px;
+    line-height: 40px;
+    color: #1d1d29;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+    padding-left: 5px;
+    margin-bottom: 6px;
+}
+
+.MgRt10px {
+    margin-right: 10px;
+}
+
+.OfSvList {
+    width: 962px;
+    display: inline-block;
+    z-index: 11
+}
+
+.OfSvBox {
+    float: left;
+    position: relative;
+    background: #efefef;
+    padding: 0 0 1px 1px;
+    height: 265px;
+    margin-bottom: 13px;
+    z-index: 11
+}
+
+a .OfSvBoxIn, a:link .OfSvBoxIn {
+    width: 230px;
+    height: 263px;
+    background: #fff;
+    margin-bottom: 13px;
+    border: 1px solid #d6d4d4;
+    cursor: pointer;
+}
+
+a:hover .OfSvBoxIn {
+    width: 226px;
+    height: 259px;
+    background: #fff;
+    margin-bottom: 13px;
+    border: 3px solid #ff5e3a;
+}
+
+.OfSvBox .name {
+    position: absolute;
+    top: 3px;
+    left: 27px;
+    color: #4c4c4f;
+    font-size: 15px;
+    font-family: NanumBarunGothic, dotum, sans-serif
+}
+
+.OfSvBox .img {
+    position: absolute;
+    top: 38px;
+    left: 11px;
+}
+
+.OfSvBox .OsList {
+    position: absolute;
+    top: 203px;
+    left: 14px;
+    width: 205px;
+}
+
+.OfSvBox .OsList dt {
+    height: 30px;
+    color: #4c4c4f;
+    font-size: 15px;
+    font-family: NanumBarunGothic, dotum, sans-serif ;
+    letter-spacing: -1px;
+}
+
+.OfSvBox .OsList dd.view {
+    float: left;
+    width: 60px;
+    height: 22px;
+    padding-top: 4px;
+    color: #3a3a3a;
+    font-size: 12px;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+}
+
+.OfSvBox .OsList dd.view span {
+    color: #db1515;
+    font-size: 12px;
+    font-family: NanumBarunGothicBold, dotum, sans-serif;
+}
+
+.OfSvBox .OsList dd.price {
+    float: right;
+    width: 125px;
+    height: 25px;
+    line-height: 25px;
+    text-align: right;
+    color: #3a3a3a;
+    font-size: 16px;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+}
+
+.OfSvBox .OsList dd.price span {
+    color: #db1515;
+    font-size: 20px;
+    font-family: NanumBarunGothicBold, dotum, sans-serif;
+}
+
+/*영어도서관 메인퀵메뉴*/
+.OfficeService4 {
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.OfSvList4 {
+    width: 960px;
+    display: inline-block;
+    z-index: 11;
+}
+
+.OfSvBox4 {
+    float: left;
+    position: relative;
+    background: #efefef;
+    height: 276px;
+    z-index: 11;
+}
+
+a .OfSvBoxIn4, a:link .OfSvBoxIn4 {
+    width: 318px;
+    height: 276px;
+    background: #fff;
+    border: 1px solid #d6d4d4;
+    cursor: pointer;
+}
+
+a:hover .OfSvBoxIn4 {
+    width: 318px;
+    height: 276px;
+    background: #fff;
+    border: 1px solid #ff5e3a;
+}
+
+.OfSvBox4 .img {
+    position: absolute;
+}
+
+.OfSvBox4 .OsList4 {
+    position: absolute;
+    width: 318px;
+}
+
+/*북게이트*/
+.OfSvList2 {
+    width: 962px;
+    display: inline-block;
+    z-index: 11
+}
+
+.OfSvBox2 {
+    float: left;
+    position: relative;
+    background: #efefef;
+    padding: 0 0 1px 1px;
+    height: 200px;
+    margin-bottom: 13px;
+    z-index: 11
+}
+
+a .OfSvBoxIn2, a:link .OfSvBoxIn2 {
+    width: 210px;
+    height: 200px;
+    background: #fff;
+    margin-bottom: 13px;
+    border: 1px solid #d6d4d4;
+    cursor: pointer;
+}
+
+a:hover .OfSvBoxIn2 {
+    width: 206px;
+    height: 196px;
+    background: #fff;
+    margin-bottom: 13px;
+    border: 3px solid #ff5e3a;
+}
+
+.OfSvBox2 .name {
+    position: absolute;
+    top: 3px;
+    left: 27px;
+    color: #4c4c4f;
+    font-size: 15px;
+    font-family: NanumBarunGothic, dotum, sans-serif
+}
+
+.OfSvBox2 .img {
+    position: absolute;
+    top: 5px;
+    left: 4px;
+}
+
+.OfSvBox2 .OsList {
+    position: absolute;
+    top: 170px;
+    left: 10px;
+    width: 190px;
+}
+
+.OfSvBox2 .OsList dt {
+    height: 30px;
+    color: #4c4c4f;
+    font-size: 15px;
+    font-family: NanumBarunGothic, dotum, sans-serif ;
+    letter-spacing: -1px;
+}
+
+.OfSvBox2 .OsList dd.view {
+    float: left;
+    width: 50px;
+    height: 22px;
+    padding-top: 4px;
+    color: #3a3a3a;
+    font-size: 12px;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+}
+
+.OfSvBox2 .OsList dd.view span {
+    color: #db1515;
+    font-size: 12px;
+    font-family: NanumBarunGothicBold, dotum, sans-serif;
+}
+
+.OfSvBox2 .OsList dd.price {
+    float: right;
+    width: 125px;
+    height: 25px;
+    line-height: 25px;
+    text-align: right;
+    color: #3a3a3a;
+    font-size: 16px;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+}
+
+.OfSvBox2 .OsList dd.price span {
+    color: #db1515;
+    font-size: 20px;
+    font-family: NanumBarunGothicBold, dotum, sans-serif;
+}
+
+/* 재능마켓 */
+#MiWrapperMK {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+    background: url(../image/mk_mi_bg.gif) repeat-x 0 0;
+    text-align: center;
+}
+
+.MiHotTxtMk {
+    position: relative;
+    padding-left: 50px;
+    height: 42px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 14px;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+    letter-spacing: -1px;
+    background: #bcbbb6
+}
+
+.MiHotTxtMk p.icn {
+    position: absolute;
+    top: -6px;
+    left: 5px;
+}
+
+#LeftMenuMk {
+    width: 219px;
+    padding: 1px;
+    background: #2f3345;
+    margin-bottom: 13px;
+}
+
+.MkLeftMenu {
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+.MkLeftMenu li {
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+.MkLeftMenu li a div {
+    width: 185px;
+    padding: 9px 0 0 34px;
+    height: 22px;
+    line-height: 13px;
+    border-bottom: 1px solid #373e52;
+    color: #fff;
+    font-size: 13px;
+    background: #454c5f;
+    cursor: pointer;
+}
+
+.MkLeftMenu li.last div {
+    border-bottom: none !important;
+}
+
+.MkLeftMenu li a div, .MkLeftMenu li a:link div, .MkLeftMenu li a:visited div {
+    color: #fff;
+    font-size: 13px;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+    letter-spacing: -1px;
+}
+
+.MkLeftMenu li.active div, .MkLeftMenu li a:hover div {
+    background: url(../image/mk_left_on.gif) repeat-x right 0;
+}
+
+#LeftMenuMk2 {
+    width: 219px;
+    padding: 1px;
+    background: #bfbfbf;
+    margin-bottom: 13px;
+}
+
+.MkLeftMenu2 {
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+.MkLeftMenu2 li {
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+.MkLeftMenu2 li a div {
+    width: 185px;
+    padding: 9px 0 0 34px;
+    height: 22px;
+    line-height: 13px;
+    border-bottom: 1px solid #949393;
+    color: #5f5f5f;
+    font-size: 13px;
+    background: #f1f0f0;
+    cursor: pointer;
+}
+
+.MkLeftMenu2 li.last div {
+    border-bottom: none !important;
+}
+
+.MkLeftMenu2 li a div, .MkLeftMenu2 li a:link div, .MkLeftMenu2 li a:visited div {
+    color: #5f5f5f;
+    font-size: 13px;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+    letter-spacing: -1px;
+}
+
+.MkLeftMenu2 li a:hover div {
+    background: url(../image/mk_left2_on.gif) repeat-x right 0;
+}
+
+.MkLeftMenu2 li.active div {
+    background: url(../image/mk_left3_on
+.gif) repeat-x right 0;
+    color: #ffffff;
+    font-size: 13px;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+    letter-spacing: -1px;
+    padding: 10px;
+}
+
+.MkLeft02 {
+    background: #2a2a2a;
+    text-align: center;
+}
+
+.MkLeft02 div {
+    height: 42px;
+    padding-top: 23px;
+}
+
+.MkLeft02 a div, .MkLeft02 a:link div, .MkLeft02 a:hover div, .MkLeft02 a:visited div {
+    color: #fff;
+    font-size: 18px;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+    letter-spacing: -1px;
+    cursor: pointer;
+}
+
+.MiInfoMk {
+    background: #ececec;
+    padding: 0 0 1px 1px;
+    margin-bottom: 11px;
+}
+
+.MiInfoMkIn {
+    width: 198px;
+    height: 145px;
+    padding: 10px 10px 0 10px;
+    background: #fff;
+    border: 1px solid #dadada;
+}
+
+.MiInfoMkIn .Tit {
+    height: 34px;
+    border-bottom: 1px solid #dedede
+}
+
+.MiInfoMkIn .Tit h3 {
+    float: left;
+    padding: 8px 0 0 3px;
+    color: #4f5365;
+    font-size: 13px;
+    font-family: NanumBarunGothicBold, dotum, sans-serif;
+}
+
+.MiInfoMkIn .Tit .btn {
+    float: right;
+    padding: 4px 3px 0 0;
+}
+
+.MkInfoConts {
+    height: 54px;
+    padding: 13px 0 0
+}
+
+.MkInfiLsit {
+    float: left;
+    width: 50%;
+    display: inline-block;
+    height: 23px;
+}
+
+.MkInfiLsit dt {
+    float: left;
+    width: 40%;
+    padding-left: 8px;
+    color: #626262;
+    font-size: 12px;
+    font-family: NanumBarunGothic dotum, sans-serif;
+}
+
+.MkInfiLsit dd {
+    float: left;
+    width: 40%;
+    padding-right: 8px;
+    text-align: right;
+    color: #626262;
+    font-size: 12px;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+}
+
+.fontorg1 {
+    color: #ff3c00;
+    font-size: 12px;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+    letter-spacing: -1px;
+}
+
+.MkInfoBtn {
+    text-align: center;
+}
+
+.MiCustomMk {
+    background: #ececec;
+    padding: 0 0 1px 1px;
+    margin-bottom: 15px;
+}
+
+.MiCustomMkIn {
+    width: 218px;
+    height: 145px;
+    background: #fff;
+    border: 1px solid #dadada;
+}
+
+.MiCustomMkIn h3 {
+    height: 68px;
+    padding: 22px 0 0 94px;
+    color: #696969;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+    background: url(../image/mi_ctimg.gif) no-repeat 14px 17px
+}
+
+.MiCustomMkIn h3 p {
+    padding: 7px 0 0;
+    color: #b1aeae;
+    font-size: 11px;
+    line-height: 13px;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+    letter-spacing: 0;
+}
+
+.MiCustomMkIn .Tel {
+    padding: 0 0 10px 19px;
+    color: #ff5000;
+    font-size: 29px;
+    font-family: NanumBarunGothicBold, dotum, sans-serif;
+}
+
+.MiCustomMkIn .Tel span {
+    color: #ff5000;
+    font-size: 24px;
+    font-family: NanumBarunGothicBold, dotum, sans-serif;
+}
+
+.LeftMail {
+    padding: 0 0 0 38px;
+    background: url(../image/icn_mail.gif) no-repeat 21px 2px;
+    color: #b1aeae;
+    font-size: 11px;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+}
+
+.LeftMail a {
+    color: #b1aeae;
+    font-size: 11px;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+}
+
+.MiMkBn {
+    background: #ececec;
+    padding: 0 0 1px 1px;
+    margin-bottom: 15px;
+}
+
+.MiMkBn li {
+    border-bottom: 1px solid #dcdcdb;
+}
+
+.MiMkBn li.last {
+    border-bottom: none !important;
+}
+
+.MiVisualAreaMk {
+    margin-bottom: 13px;
+    display: inline-block;
+}
+
+.MkMainTab {
+    position: relative;
+    width: 100%;
+    height: 47px;
+    background: #70747f;
+    border-top: 2px solid #525660;
+    margin: 0 0 13px;
+    ;z-index: 11111
+}
+
+.MkMainTab ul {
+    overflow: hidden;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: url(../image/mktab_bar.gif) no-repeat right 0
+}
+
+.MkMainTab li {
+    float: left;
+    z-index: 10;
+    margin-left: -1px;
+    background: url(../image/mktab_bar.gif) no-repeat 0 0
+}
+
+.MkMainTab li a {
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+    padding: 15px 24px 0 24px;
+    height: 32px;
+    cursor: pointer;
+    text-decoration: none
+}
+
+.MkMainTab li a:hover {
+    text-decoration: none
+}
+
+.MkMainTab li.on {
+    z-index: 20;
+    padding-right: 0;
+    background: #fff ;
+    color: #000;
+    font-size: 15px;
+    font-family: NanumBarunGothicBold, dotum, sans-serif;
+}
+
+.MkMainTab li.on a {
+    color: #000;
+    font-size: 15px;
+    font-family: NanumBarunGothicBold, dotum, sans-serif;
+}
+
+.MkMainTab .sch {
+    float: right;
+    width: 368px;
+    padding: 6px 13px 0 0
+}
+
+.MkMainTab .schForm {
+    float: left;
+    width: 310px;
+    height: 30px;
+    background: #fff;
+    border: 1px solid #494b4e;
+    border-right: none !important;
+}
+
+.sch_arrow {
+    width: 75px;
+    color: #fff;
+    height: 22px;
+    padding: 5px 0 0 10px;
+    line-height: 22px;
+    background: #fff url(../image/mk_sel_icn.gif) no-repeat right 50%;
+    cursor: pointer;
+    color: #ed6907;
+    font-size: 12px;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+}
+
+.schSel {
+    float: left;
+}
+
+.schlist01 {
+    background: none !important;
+}
+
+.schlist01 dd {
+    float: none !important;
+    background: none !important;
+    padding: 2px 0;
+}
+
+.schlist01 dd a {
+    color: #666;
+    font-size: 12px;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+}
+
+.layer2 {
+    position: absolute;
+    padding: 10px 0 5px 10px;
+    border: 1px solid #dadada;
+    background: #fff;
+    display: none;
+    margin-top: 0;
+    width: 100px;
+    height: 50px;
+    overflow: auto;
+    z-index: 11111
+}
+
+.overflow {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.layer-show {
+    display: block;
+}
+
+.layer2 ul a, .layer2 ul a:link, .layer2 ul a:hover {
+    color: #666;
+    text-decoration: none;
+    background: none !important;
+}
+
+.MkMainTab .schBtn {
+    float: left;
+}
+
+.schmk {
+    float: left;
+    width: 210px;
+    height: 21px;
+    padding: 6px 0 0 10px;
+    border: 1px solid #fff;
+    font-size: 13px;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+}
+
+.ServiceBox {
+    display: inline-block;
+    margin-bottom: 35px;
+    z-index: 11
+}
+
+.ServiceBox h3 {
+    height: 40px;
+    line-height: 40px;
+    color: #1d1d29;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+    padding-left: 5px;
+    margin-bottom: 6px;
+}
+
+/* 재능마켓 sub*/
+#ContsMk {
+    float: right;
+    width: 958px;
+    margin: 0;
+    padding: 0 0 80px 0;
+    background: #fff
+}
+
+#ContsMk .previewContsMk {
+    float: initail;
+}
+
+.MkTab {
+    width: 100%;
+    border-top: 1px solid #e1dfdf;
+    border-right: 1px solid #e1dfdf;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.MkTab li {
+    float: left;
+    height: 36px;
+}
+
+.MkTab li.tab1 {
+    width: 156px;
+}
+
+.MkTab li.tab2 {
+    width: 178px;
+}
+
+.MkTab li.tab3 {
+    width: 156px;
+}
+
+.MkTab li.tab4 {
+    width: 156px;
+}
+
+.MkTab li.tab5 {
+    width: 156px;
+}
+
+.MkTab li.tab6 {
+    width: 156px;
+}
+
+.MkTab li {
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+.MkTab li a div {
+    padding: 10px 0 0 30px;
+    height: 25px;
+    line-height: 15px;
+    border-bottom: 1px solid #e1dfdf;
+    border-left: 1px solid #e1dfdf;
+    color: #575757;
+    font-size: 13px;
+    background: #f5f5f5;
+    cursor: pointer;
+}
+
+.MkTab li.last div {
+    border-bottom: none !important;
+}
+
+.MkTab li a div, .MkTab li a:link div, .MkTab li a:visited div {
+    color: #575757;
+    font-size: 13px;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+    letter-spacing: -1px;
+}
+
+.MkTab li.active div, .MkTab li.active a:link div, .MkTab li a:hover div {
+    background: #606677;
+    color: #fff;
+}
+
+.MkTab li.none div, .MkTab li.none a:hover div {
+    background: #f5f5f5;
+}
+
+.BodyTit01 {
+    height: 40px;
+    color: #575757;
+    font-size: 18px;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+    font-weight: normal;
+}
+
+.MkSel {
+    position: relative;
+    height: 40px;
+    z-index: 9999;
+}
+
+.sel_arrow2 {
+    width: 185px;
+    color: #fff;
+    height: 22px;
+    padding-left: 10px;
+    line-height: 22px;
+    border: 1px solid #4c4c4c;
+    background: url(../image/arrow_on.gif) no-repeat right 50%;
+    cursor: pointer;
+}
+
+.layer3 {
+    position: absolute;
+    padding: 8px 0 8px 10px;
+    border: 1px solid #dadada;
+    background: #fff;
+    display: none;
+    margin-top: 0;
+    width: 182px;
+    height: 50px;
+    overflow: auto;
+}
+
+.overflow {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.layer-show {
+    display: block;
+}
+
+.laye3r ul a, .layer3 ul a:link, .layer3 ul a:hover {
+    color: #666;
+    text-decoration: none;
+}
+
+/* 전화영어 */
+.TelSchBest {
+    float: left;
+    width: 387px;
+    height: 145px;
+    padding: 15px 16px 0;
+    border: 1px solid #dadada;
+    background: #fff;
+}
+
+.TelSchBest h3 {
+    border-bottom: 1px solid #e4e4e4;
+    padding: 4px 0 13px 46px;
+    color: #4b4b4b;
+    font-size: 16px;
+    font-family: NanumBarunGothicBold, dotum, sans-serif;
+    background: url(../image/tel_mi_tit_icn.gif) no-repeat 9px 0
+}
+
+.TelSchBest h3 span {
+    color: #f03333;
+    font-size: 16px;
+    font-family: NanumBarunGothicBold, dotum, sans-serif;
+}
+
+.TelSchBestList {
+    padding: 15px 0 0 10px
+}
+
+.TelSchBestList li {
+    padding: 1px 0 0 25px;
+    margin-bottom: 6px;
+    height: 20px;
+    font-size: 14px;
+    background: url(../image/tel_num.gif) no-repeat;
+}
+
+.TelSchBestList li.num1 {
+    background-position: 0 0
+}
+
+.TelSchBestList li.num2 {
+    background-position: 0 -28px;
+}
+
+.TelSchBestList li.num3 {
+    background-position: 0 -55px;
+}
+
+.TelSchBestList li a, .TelSchBestList li a:link, .TelSchBestList li a:visited {
+    color: #949494;
+    font-size: 14px;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+}
+
+.TelSchBestList li a:hover, .TelSchBestList li a:active {
+    color: #ff5000;
+}
+
+.MiTelQuick01 {
+    float: right;
+    width: 530px;
+    height: 160px;
+    border: 1px solid #dadada;
+    background: #fff;
+}
+
+.MiTelQuick01 ul {
+    padding: 20px 0 0 5px;
+}
+
+.MiTelQuick01 ul li {
+    float: left;
+    width: 25%;
+    height: 115px;
+    text-align: center;
+    background: url(../image/tel_mi_bar.gif) no-repeat right 50%
+}
+
+.MiTelQuick01 ul li a, .MiQuick1 li a:link {
+    color: #4b4b4b;
+    font-size: 15px;
+    font-family: NanumBarunGothicBold, dotum, sans-serif;
+}
+
+.MiTelQuick01 ul li a:hover {
+    color: #ff5000;
+}
+
+.MiTelQuick01 ul li img {
+    padding: 0 0 6px;
+}
+
+.MiTelQuick01 ul li.last {
+    background: none !important;
+}
+
+.TelQuick {
+    width: 962px;
+    margin-bottom: 33px;
+    padding-top: 22px;
+}
+
+.TelQuickTit {
+    height: 50px;
+    padding: 0;
+    color: #222;
+    font-size: 24px;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+    font-weight: normal;
+    padding-top: 10px;
+}
+
+.TelQuickTit span {
+    color: #0072bc;
+    font-size: 24px;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+    font-weight: normal;
+}
+
+.TelQuickList {
+    width: 960px;
+    border-top: 1px solid #dfdfdf;
+    border-left: 1px solid #dfdfdf;
+    display: inline-block
+}
+
+.TelQuickList li {
+    float: left;
+    width: 239px;
+    height: 135px;
+    border-right: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    cursor: pointer;
+    background-position: 10px 50%;
+}
+
+.TelQuickList li div {
+    width: 135px;
+    padding: 48px 106px;
+    color: #4b4b4b;
+    font-size: 17px;
+    font-family: NanumBarunGothicBold, dotum, sans-serif;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.TelQuickList li div.padd10 {
+    padding-top: 40px !important;
+}
+
+.TelQuickList li div p {
+    padding-top: 4px;
+    color: #a8a8a8;
+    font-size: 13px;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+    font-weight: normal;
+}
+
+.TelQ1 {
+    background: url(../image/tel_mi_q1.gif) no-repeat
+}
+
+.TelQ2 {
+    background: url(../image/tel_mi_q2.gif) no-repeat
+}
+
+.TelQ3 {
+    background: url(../image/tel_mi_q3.gif) no-repeat
+}
+
+.TelQ4 {
+    background: url(../image/tel_mi_q4.gif) no-repeat
+}
+
+.TelQ5 {
+    background: url(../image/tel_mi_q5.gif) no-repeat
+}
+
+.TelQ6 {
+    background: url(../image/tel_mi_q6.gif) no-repeat
+}
+
+.TelQ7 {
+    background: url(../image/tel_mi_q7.gif) no-repeat
+}
+
+.TelQ8 {
+    background: url(../image/tel_mi_q8.gif) no-repeat
+}
+
+.AppArea {
+    width: 220px;
+    height: 375px;
+    padding: 51px 0 0;
+    background: url(../image/mi_tel_appbg.gif) no-repeat 0 0
+}
+
+.AppList01 {
+    height: 87px;
+}
+
+.AppList01 dt {
+    float: left;
+    width: 36px;
+    text-align: center;
+    padding: 7px 8px 0 0;
+    color: #bcbcbc;
+    font-size: 13px;
+    font-family: NanumBarunGothicBold, dotum, sans-serif;
+    line-height: 14px;
+}
+
+.AppList01 dd {
+    float: left;
+    padding: 0 7px 0 0;
+}
+
+.AppList02 {
+}
+
+.AppList02 dt {
+    float: left;
+    width: 36px;
+    height: 220px;
+    text-align: center;
+    padding: 7px 8px 0 0;
+    color: #bcbcbc;
+    font-size: 13px;
+    font-family: NanumBarunGothicBold, dotum, sans-serif;
+    line-height: 14px;
+}
+
+.AppList02 dd {
+    float: left;
+    padding: 0 7px 4px 0;
+}
+
+.KbBg {
+    width: 867px;
+    height: 525px;
+    padding: 35px 0 0 13px;
+    margin-left: 35px;
+    background: url(../image/kb_allbg.gif) no-repeat 0 0
+}
+
+.Kbtitle01 {
+    padding: 12px 0 20px 50px;
+    color: #202020;
+    font-size: 26px;
+    font-family: NanumBarunGothicBold, dotum, sans-serif;
+}
+
+.Kbtitle02 {
+    text-align: center;
+    padding: 0 0 35px;
+    color: #615d4c;
+    font-size: 30px;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+    font-weight: normal;
+}
+
+.KbInput {
+    width: 774px;
+    height: 135px;
+    padding: 10px 50px 20px;
+    color: #202020;
+    font-size: 30px;
+    font-family: NanumBarunGothicBold, dotum, sans-serif;
+    line-height: 35px;
+    letter-spacing: 10px;
+}
+
+.Kbspeed {
+    width: 580px;
+    height: 105px;
+    background: url(../image/bg_speed.gif) no-repeat;
+    margin: 0 0 20px 180px;
+}
+
+.Kbspeedtxt {
+    color: #ffffff;
+    font-size: 50px;
+    font-family: NanumBarunGothicBold, dotum, sans-serif;
+    line-height: 80px;
+    letter-spacing: 65px;
+    padding: 17px 0 0 260px;
+}
+
+.coupoInput {
+    width: 774px;
+    height: 135px;
+    padding: 10px 50px 20px;
+    color: #202020;
+    font-size: 30px;
+    font-family: NanumBarunGothicBold, dotum, sans-serif;
+    line-height: 35px;
+    letter-spacing: 10px;
+}
+
+.coupon_bg {
+    width: 655px;
+    height: 245px;
+    background: url(../image/coupon_bg.jpg) no-repeat;
+    margin: 30px 0 20px 40px;
+}
+
+#bogi_word {
+    color: #202020;
+    font-size: 26px;
+    font-family: NanumBarunGothicBold, dotum, sans-serif;
+    line-height: 33px;
+}
+
+#ans_word {
+    color: #202020;
+    font-size: 26px;
+    font-family: NanumBarunGothicBold, dotum, sans-serif;
+    line-height: 33px;
+}
+
+.circle {
+    float: left;
+    width: 40px;
+    height: 50px;
+    margin: 0 5px 4px 0;
+    padding: 5px 0 0 16px;
+    background: url(../image/kb_bg.gif) no-repeat 0 0;
+    cursor: pointer;
+    line-height: 23px;
+    color: #565656;
+    font-size: 13px;
+    font-family: gulim
+}
+
+.circle:hover {
+    background: url(../image/kb_bg_on.gif) no-repeat 0 0
+}
+
+.Enter {
+    float: left;
+    width: 72px;
+    height: 40px;
+    margin: 0 5px 4px 0;
+    padding: 15px 0 0 16px;
+    background: url(../image/kb_bg1.gif) no-repeat 0 0;
+    cursor: pointer;
+    line-height: 23px;
+    color: #565656;
+    font-size: 13px;
+    font-family: gulim
+}
+
+.Enter:hover {
+    background: url(../image/kb_bg_on1.gif) no-repeat 0 0
+}
+
+.Caps {
+    float: left;
+    width: 69px;
+    height: 40px;
+    margin: 0 5px 4px 0;
+    padding: 15px 0 0 16px;
+    background: url(../image/kb_bg2.gif) no-repeat 0 0;
+    cursor: pointer;
+    line-height: 23px;
+    color: #565656;
+    font-size: 13px;
+    font-family: gulim
+}
+
+.Caps:hover {
+    background: url(../image/kb_bg_on2.gif) no-repeat 0 0
+}
+
+.Shift1 {
+    float: left;
+    width: 88px;
+    height: 40px;
+    margin: 0 5px 4px 0;
+    padding: 15px 0 0 16px;
+    background: url(../image/kb_bg3.gif) no-repeat 0 0;
+    cursor: pointer;
+    line-height: 23px;
+    color: #565656;
+    font-size: 13px;
+    font-family: gulim
+}
+
+.Shift1:hover {
+    background: url(../image/kb_bg_on3.gif) no-repeat 0 0
+}
+
+.Shift2 {
+    float: left;
+    width: 114px;
+    height: 40px;
+    margin: 0 5px 4px 0;
+    padding: 15px 0 0 16px;
+    background: url(../image/kb_bg4.gif) no-repeat 0 0;
+    cursor: pointer;
+    line-height: 23px;
+    color: #565656;
+    font-size: 13px;
+    font-family: gulim
+}
+
+.Shift2:hover {
+    background: url(../image/kb_bg_on4.gif) no-repeat 0 0
+}
+
+.bar {
+    float: left;
+    width: 283px;
+    height: 40px;
+    margin: 0 5px 4px 0;
+    padding: 15px 0 0 16px;
+    background: url(../image/kb_bg5.gif) no-repeat 0 0;
+    cursor: pointer;
+    line-height: 23px;
+    color: #565656;
+    font-size: 13px;
+    font-family: gulim
+}
+
+.bar:hover {
+    background: url(../image/kb_bg_on5.gif) no-repeat 0 0
+}
+
+.kbBold {
+    color: #565656;
+    font-size: 13px;
+    font-family: gulim;
+    font-weight: bold
+}
+
+.kbtop {
+    height: 40px !important;
+    padding: 15px 0 0 16px !important;
+}
+
+.Tab3Area {
+    width: 962px;
+    height: 39px;
+    margin: -25px 0 20px -25px;
+    background: url(../image/tab3.gif) repeat-x 0 0;
+    border-bottom: 10px solid #e4e4e4;
+}
+
+.Tab3List {
+    display: inline-block;
+}
+
+.Tab3List li {
+    float: left;
+    height: 38px;
+    background: url(../image/tab1_bar.gif) no-repeat right 0;
+}
+
+.Tab3List li a div, .Tab3List li a:visited div {
+    width: 93px;
+    height: 38px;
+    padding: 12px 22px 0;
+    color: #fff;
+    font-size: 16px;
+    font-family: NanumBarunGothic, dotum, sans-serif;
+    letter-spacing: -1px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Tab3List li a:hover div {
+    width: 93px;
+    height: 38px;
+    background: url(../image/tab3_on.gif) no-repeat 50% 0
+}
+
+.Tab3List li a:active div, .Tab3List li a:hover div.on, .Tab3List li a div.on {
+    width: 93px;
+    height: 38px;
+    background: url(../image/tab3_on.gif) no-repeat 50% 0
+}
+
+.Tab3List li.Last {
+    background: none !important;
+}
+
+.Tab3List li a div.width111 {
+    padding: 12px 23px 0 24px !important;
+}
+
+.chatting_layer {
+    right: 250px !important;
+    ; }
