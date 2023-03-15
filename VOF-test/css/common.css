@@ -1,0 +1,47 @@
+@charset "utf-8";
+@font-face { font-family: 'NanumBarunGothic';	font-style: normal;font-weight: normal;src: url('../font/NanumBarunGothic.eot'); src: local('※'), url('../font/NanumBarunGothic.eot?#iefix') format('embedded-opentype'), url('../font/NanumBarunGothic.woff') format('woff'), url('../font/NanumBarunGothic.ttf') format('truetype'); }
+@font-face { font-family: 'NanumBarunGothicBold';font-style: normal;font-weight: bold;src: url('../font/NanumBarunGothicBold.eot');src: local('※'), url('../font/NanumBarunGothicBold.eot?#iefix') format('embedded-opentype'), url('../font/NanumBarunGothicBold.woff') format('woff'), url('../font/NanumBarunGothicBold.ttf') format('truetype'); }
+
+* {margin:0; padding:0;}
+html, body, div, span, object, frame, iframe,
+table, caption, thead, tbody, tfoot, tr, th, td,
+form, fieldset, legend, label, input, select, textarea, button,
+dl, dt, dd, ol, ul, li, h3, h4, h5, h6, p, blockquote, pre {border-collapse:collapse; font-size:12px; line-height:16px;color:#575757; font-family: "Nanum Square", 돋움, 굴림, Dotum, Gulim, verdana, tahoma; -webkit-text-size-adjust:none; /* 모바일 폰트 확대 방지 */}
+a, abbr, acronym, address, big, cite, code, dfn, em, strong {font-size:100%;}
+html, body {height:100%;}
+hr {display:none;}
+legend { visibility:hidden; overflow:hidden; height:0px; width:0px; line-height:0px; _text-indent:-1000px; font-size:0px; }
+abbr, img, fieldset {border:0;}
+address, blockquote, code, pre {}
+address, cite, em {font-style:normal;}
+
+table {border-collapse:separate; border-spacing:0;font-family:돋움, Dotum, verdana, tahoma;body:scrollbar-3dlight-color:595959; 
+         scrollbar-arrow-color:ffffff; 
+         scrollbar-base-color:cfcfcf; 
+         scrollbar-darkshadow-color:ffffff; 
+         scrollbar-face-color:cfcfcf; 
+         scrollbar-highlight-color:fffff; 
+         scrollbar-shadow-color:595959 }
+table caption{position:absolute; left:10000%; top:-10000%; overflow:hidden; visibility:hidden; width:0; height:0; font-size:0; line-height:0;}
+button, label, input.img_input {cursor:pointer;}
+
+select {height:20px;}
+select.slt_input {}
+textarea {}
+textarea.txt_area {border:1px solid #c0dff3;}
+fieldset, label, input, select, textarea, button, label img, fieldset img {vertical-align:middle;} /* 테스트후재정의필요 */
+fieldset.inline-block {vertical-align:middle;}
+
+a:link, a:visited, a:active {	color:#505050;text-decoration:none;}
+a:hover {	color:#f2612c;text-decoration:none; }
+img {	border:0;vertical-align:middle;}
+input, select {	vertical-align:middle;}
+ul, li {	list-style:none;}
+caption, legend, .hiddentxt {font-size:0;display:none;}
+fieldset {border:none;margin:0;padding:0;}
+button {cursor:pointer;}
+.skipNav {position:absolute;top:-10.5em;left:0;margin:0 auto;z-index:100}
+.skipNav a:active, .skipNav a:focus {position:absolute;left:0;top:10.5em;width:150px;height:18px;text-align:center;color:#FFF;font-weight:bold;padding:5px 20px;border:1px solid #364A00;background:#5F8100;cursor:pointer}
+.skip, hr  {position:absolute;visibility:hidden;width:0;height:0;overflow:hidden;font-size:0;}  	
+
+.hidden, .skip, hr  {position:absolute;visibility:hidden;width:0;height:0;overflow:hidden;font-size:0;}
